@@ -1,0 +1,58 @@
+
+body{
+    background-color: aqua;
+    display: cover;
+    
+}
+
+img{
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    margin: 6% 5% 5% 6%;
+    border-radius: 8%;
+    border: 2px solid black; 
+}
+
+#mouse-carousel{
+    background-color : #ff4c68;
+}
+
+#mouseobj{
+    padding: 5% 3% 3% 5%;
+}
+
+/* ANIMATED */
+.animated{
+    animation-duration: 3s;
+    animation-delay: 2s;
+    transform: scaleX(-1)
+}
+
+.animated:hover{
+    animation-duration: 3s;
+    animation-delay: 2s;
+    transform: scaleX(0);
+}
+
+.wait{
+    cursor: wait;
+}
+
+#box{
+    padding: 6% 4% 6% 4%;
+    margin: 5% 0% 5% 0%;
+    width: auto;
+    height: 700px;
+    border: 3px solid black;
+    background-color: #fff;
+}
+
+.custom{
+    cursor: url(VICTSING/download.png), auto;
+}
+
+#rgbp{
+    padding: 6% 4% 6% 3%;
+    margin: 20%;
+}
